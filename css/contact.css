@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width:100%;
+    display: flex;
+}
+.section1{
+    display: flex;
+    width:70%;
+    background-color:white;
+}
+.form{
+    width: 100%;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.form h1{
+    margin: 14px 0;
+    color: black;
+    font-family: 'Ubuntu';
+    font-size: 25px;
+}
+.form h2{
+    color: gray;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-input{
+    margin: 14px 0;
+    width:100%;
+    padding-top: 20px;
+    border: 2px solid gray;
+    box-sizing:border-box;
+    padding: 5px 3px;
+   
+    
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    font-family: 'ubuntu';
+    font-size: 15px;
+}
+.btn:hover{
+    color:indigo;
+}
+.section2{
+    width:30%;
+    border: black 2px;
+    padding-left: 20px;
+}
+.text{
+    padding-top: 30px;
+    color: gray;
+    font-size: 20px;
+}
+.section2 p {
+    padding-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.section2 h1 {
+    padding-top: 20px;
+    color: gray;
+    font-size: 15px;
+}
+.icon{
+    text-indent: 10px;
+}
+@media only Screen and (max-width:1170px){
+
+    .container{
+        align-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+
+    }
+    .section1{
+        align-content: center;
+        flex-direction: column-reverse;
+        width:fit-content;
+    }
+    .section2{
+        align-content: center;
+        justify-content: center;
+        text-align: left;
+        width:fit-content;
+
+    }
+    
+    
+}
